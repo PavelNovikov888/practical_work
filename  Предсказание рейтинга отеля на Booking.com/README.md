@@ -1,36 +1,21 @@
-# Проект 3. Предсказание рейтинга отеля на Booking.com
+# Предсказание рейтинга отеля на Booking.com
 
 skillfactory_rds
 
 Python 3.9.7
 
 ## Оглавление
+[1.Описание проекта](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-<<<<<<< HEAD: Предсказание рейтинга отеля на Booking.com/README.md
-[1.Описание проекта](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+[2.Какой кейс решаем?](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BA%D0%B5%D0%B9%D1%81-%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D0%BC)
 
-[2.Какой кейс решаем?](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BA%D0%B5%D0%B9%D1%81-%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D0%BC)
+[3.Краткая информация о данных](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
-[3.Краткая информация о данных](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+[4.Этапы работы над проектом](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC) 
 
-[4.Этапы работы над проектом](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC) 
+[5.Результат](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)
 
-[5.Результат](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)
-
-[6.Выводы](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
-=======
-[1.Описание проекта](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
-
-[2.Какой кейс решаем?](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BA%D0%B5%D0%B9%D1%81-%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D0%BC)
-
-[3.Краткая информация о данных](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
-
-[4.Этапы работы над проектом](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC) 
-
-[5.Результат](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)
-
-[6.Выводы](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
->>>>>>> master:Предсказание рейтинга отеля на Booking.com/README.md
+[6.Выводы](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 
 ### Описание проекта
@@ -42,10 +27,7 @@ Python 3.9.7
 Вам поставлена задача создать такую модель.
 Соревнования моделей проводятся на платформе [Kaggle.com](https://www.kaggle.com/competitions/sf-booking) 
 
-<<<<<<< HEAD: Предсказание рейтинга отеля на Booking.com/README.md
 
-=======
->>>>>>> master:Предсказание рейтинга отеля на Booking.com/README.md
 ### Какой кейс решаем?
  В этом проекте мы работаем с датасетом, в котором содержатся сведения о 515 000 отзывов на отели Европы. Модель, которую мы обучаем, должна предсказывать рейтинг отеля по данным сайта Booking на основе имеющихся в датасете данных. Изученные нами навыки разведывательного анализа помогут улучшить модель.
 
@@ -119,8 +101,5 @@ Python 3.9.7
 ### Выводы
 Четкое следование правилам работы с данными и в то же время использование творческого подхода при преобразовании признаков помогают достичь высоких цифр предсказания данных.
 
-<<<<<<< HEAD: Предсказание рейтинга отеля на Booking.com/README.md
-:arrow_up: [к оглавлению](https://github.com/PavelNovikov888/educational_projects/tree/plotly/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
-=======
-:arrow_up: [к оглавлению](https://github.com/PavelNovikov888/educational_projects/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
->>>>>>> master:Предсказание рейтинга отеля на Booking.com/README.md
+:arrow_up: [к оглавлению](https://github.com/PavelNovikov888/practical_work/tree/master/%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%20%D0%BD%D0%B0%20Booking.com#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+
