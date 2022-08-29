@@ -72,7 +72,6 @@
 7. Приводим основные выводы.  
 8. Загружаем отчёт в Power BI Service.  
 
-! ⁠[Dashboard](https://drive.google.com/drive/folders/1ipvvpFNVUzOXdAoVT39fptiLdVj6gA5R)
 
 ### Выводы
 
