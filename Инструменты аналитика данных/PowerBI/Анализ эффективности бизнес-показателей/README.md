@@ -91,6 +91,8 @@
 9. Приводим основные выводы.  
 10. Загружаем отчёт в Power BI Service.  
 
+!⁠[Dashboard](https://drive.google.com/drive/folders/1ipvvpFNVUzOXdAoVT39fptiLdVj6gA5R)
+
 ### Выводы
 
 На основе отчёта по маркетинговой активности кампании в контекстной рекламе мы можем сделать следующие выводы:
